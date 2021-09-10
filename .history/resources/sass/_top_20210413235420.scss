@@ -1,0 +1,48 @@
+
+
+  
+
+.loginPage {
+  background-image:url("../../images/pexels-photo-2029619.jpeg");
+    background-size:cover;
+    background-position:center;
+    background-repeat: no-repeat;
+    background-color:rgba(255,255,255,0.5);
+    background-blend-mode:lighten;
+    height:100vh;
+    
+  
+  &_contents {
+    height: 80vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    text-align: center;
+    
+    
+    &_title {
+      margin-top: 12vh;
+    }
+    &_btn {
+      display: block;
+      max-width: 300px;
+      padding: 15px;
+      margin: 0 auto;
+      border-radius: 30px;
+      background: green;
+      color: #fff;
+    }
+  }
+}
+.signupPage{
+  &_btn {
+    display: block;
+    max-width: 300px;
+    padding: 15px;
+    margin: 20 auto;
+    border-radius: 30px;
+    background: green;
+    color: #fff;
+  }
+  
+}
