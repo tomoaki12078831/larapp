@@ -9,8 +9,9 @@ class UserController extends Controller
 {
     public function show($id)
     {
-        $user = User::findorFail($id);
         
-        return view('users.show', compact('user'));
+
+        
+        return view('users.show');
     }
 }

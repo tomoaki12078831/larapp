@@ -11,8 +11,8 @@
       <td class='userInfo_age'>{{ $user -> year_name }}</td>
       <td class='userInfo_area'>{{ $user -> pref_name }}</td>
       <td class='userInfo_want_talk'>{{ $user -> wantlanguage_name }}</td>
-      <td class='userInfo_can_talk'>{{ $user -> canlanguage_name }}</td>
-      <td class='userInfo_occupation'>{{ $user -> job_name }}</td>
+      <td class='userInfo_can_talk'>{{ $user -> canlanguage_name}}</td>
+      <td class='userInfo_occupation'>{{ $user -> job_name}}</td>
       <td class='userInfo_selfIntroduction'>{{ $user -> self_introduction }}</td>
 </tr>
 @endforeach
