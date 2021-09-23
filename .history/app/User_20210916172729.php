@@ -36,19 +36,19 @@ class User extends Authenticatable
     protected $casts = [
         'email_verified_at' => 'datetime',
     ];
-    public function getPrefNameAttribute(){
+    public function getPrefNameAttribute() {
         return config('pref.'.$this->area);
     }
-    public function getYearNameAttribute(){
+    public function getYearNameAttribute() {
         return config('year.'.$this->age);
     }
-    public function getWantLanguageNameAttribute(){
+    public function getWantLanguageNameAttribute() {
         return config('language.'.$this->want_talk);
     }
-    public function getCanLanguageNameAttribute(){
+    public function getCanLanguageNameAttribute() {
         return config('language.'.$this->can_talk);
     }
-    public function getJobNameAttribute(){
+    public function getJobNameAttribute() {
         return config('job.'.$this->occupation);
     }
 }

@@ -6,9 +6,7 @@
 @foreach($users as $user)
 <div class="card mt-3">
   <div class="card-body d-flex flex-row">
-  <div class='userInfo_img'>
-      <img src="{{$user -> img_name}}">
-      </div>
+        <i class="fas fa-user-circle fa-3x mr-1"></i>
     <div>
       <div class='userInfo_name font-weight-bold'>
         {{ $user -> name }}
