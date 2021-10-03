@@ -42,7 +42,7 @@ class HomeController extends Controller
         $data = $query->paginate(10);
         
         return view('users.home',[
-            'want_talks' =>$want_talks,'can_talks' =>$can_talks,'data' => $data
+            'data' => $data
         ]);
     }
 }

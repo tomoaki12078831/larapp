@@ -10,11 +10,11 @@
                 
                 <div class="form-group">
                     {!! Form::label('want_talk', '話したい言語:') !!}
-                    {!! Form::select('want_talk', ['指定なし' => '指定なし'] + Config::get('language') ,'指定なし') !!}
+                    {!! Form::select('want_talk', ['指定なし' => '指定なし'] + Config::get('language.gengo') ,'指定なし') !!}
                 </div>
                 <div class="form-group">
                     {!! Form::label('can_talk', '話すことができる言語:') !!}
-                    {!! Form::select('can_talk', ['指定なし' => '指定なし'] + Config::get('language') , '指定なし') !!}
+                    {!! Form::select('can_talk', ['指定なし' => '指定なし'] + Config::get('language.gengo') , '指定なし') !!}
                 </div>
                 {!! Form::submit('検索', ['class' => 'btn btn-primary btn-block']) !!}
             {!! Form::close() !!}
