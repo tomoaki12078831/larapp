@@ -41,7 +41,7 @@ class HomeController extends Controller
 
         $data = $query->paginate(10);
         
-        return view('home',[
+        return view('views.home',[
             'data' => $data
         ]);
     }

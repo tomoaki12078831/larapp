@@ -41,8 +41,8 @@ class HomeController extends Controller
 
         $data = $query->paginate(10);
         
-        return view('home',[
-            'data' => $data
+        return view('views.home',[
+            'want_talks' =>$want_talks,'can_talks' =>$can_talks,'data' => $data
         ]);
     }
 }
