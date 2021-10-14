@@ -38,6 +38,11 @@
     <div class='userInfo_img'>
       <img src="{{$item -> img_name}}">
     </div>
+    <div>
+      <a href="" class='font-weight-bold'>
+        {{ $item -> name }}
+      </a>
+    </div>
   </div>
   <div>
       <div class='userInfo_sex card-text'>性別{{ $item -> sex_name }}</div>

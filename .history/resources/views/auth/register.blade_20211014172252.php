@@ -1,4 +1,5 @@
 @extends('layouts.layout')
+@include('app')
 @section('content')
 <div class="signupPage">
 <header class="header">

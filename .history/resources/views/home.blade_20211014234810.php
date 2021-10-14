@@ -30,16 +30,15 @@
 @foreach($data as $item)
 <div class="card mt-3">
   <div class="card-body d-flex flex-row">
-    <div>
-      <a href="" class='font-weight-bold'>
-        {{ $item -> name }}
-      </a>
-  </div>
     <div class='userInfo_img'>
       <img src="{{$item -> img_name}}">
     </div>
-  </div>
   <div>
+    <a href="" class='font-weight-bold'>
+        {{ $item -> name }}
+    </a>
+  </div>
+</div>
       <div class='userInfo_sex card-text'>性別{{ $item -> sex_name }}</div>
       <div class='userInfo_age card-text'>年齢{{ $item -> year_name }}</div>
       <div class='userInfo_area card-text'>地域{{ $item -> pref_name }}</div>
@@ -47,7 +46,7 @@
       <div class='userInfo_can_talk card-text'>話せる言語{{ $item -> canlanguage_name }}</div>
       <div class='userInfo_occupation card-text'>職業{{ $item -> job_name }}</div>
       <div class='userInfo_selfIntroduction card-text'>自己紹介{{ $item -> self_introduction }}</div>
-  </div>
+</div>
 @endforeach
 @endif
 

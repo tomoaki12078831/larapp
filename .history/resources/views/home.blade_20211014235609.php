@@ -30,15 +30,15 @@
 @foreach($data as $item)
 <div class="card mt-3">
   <div class="card-body d-flex flex-row">
-    <div>
-      <a href="" class='font-weight-bold'>
-        {{ $item -> name }}
-      </a>
-  </div>
     <div class='userInfo_img'>
       <img src="{{$item -> img_name}}">
     </div>
+  <div>
+    <a href="" class='font-weight-bold'>
+        {{ $item -> name }}
+    </a>
   </div>
+</div>
   <div>
       <div class='userInfo_sex card-text'>性別{{ $item -> sex_name }}</div>
       <div class='userInfo_age card-text'>年齢{{ $item -> year_name }}</div>

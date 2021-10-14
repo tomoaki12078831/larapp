@@ -24,11 +24,21 @@
   <div class="form-group">
     <label for="email">メールアドレス</label>
       <input type="text" name="email"  class="form-control" placeholder="メールアドレスを入力してください" required value="{{ old('email') }}">
+      @error('email')
+            <span class="errorMessage">
+              {{ $message }}
+            </span>
+      @enderror
   </div>
 
   <div class="form-group">
     <label for="password">パスワード</label>
       <input type="password" name="password"  class="form-control" placeholder="パスワードを入力してください">
+      @error('password')
+            <span class="errorMessage">
+              {{ $message }}
+            </span>
+      @enderror
   </div>
 
   <div class="form-group">

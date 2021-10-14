@@ -1,8 +1,8 @@
 
 <div id="app">
-<nav class="navbar navbar-expand-md navbar-dark bg-success">
+<nav class="navbar navbar-expand-md navbar-green bg-success">
 
-  <a class="navbar-brand" href="/">Cosmopoly</a>
+  <a class="navbar-brand" href="/"><i class="far fa-sticky-note mr-1"></i>Cosmopoly</a>
 
   <ul class="navbar-nav ml-auto">
 
@@ -12,6 +12,7 @@
     <li class="nav-item dropdown">
       <a class="nav-link dropdown-toggle" id="navbarDropdownMenuLink" data-toggle="dropdown"
          aria-haspopup="true" aria-expanded="false">
+        <i class="fas fa-user-circle"></i>
       </a>
       <div class="dropdown-menu dropdown-menu-right dropdown-primary" aria-labelledby="navbarDropdownMenuLink">
         <button class="dropdown-item" type="button"

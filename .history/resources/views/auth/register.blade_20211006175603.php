@@ -1,4 +1,5 @@
 @extends('layouts.layout')
+
 @section('content')
 <div class="signupPage">
 <header class="header">
@@ -32,12 +33,7 @@
 
   <div class="form-group">
     <label for="password">パスワード</label>
-      <input type="password" name="password"  class="form-control" placeholder="パスワードを入力してください(８文字以上)">
-      @error('password')
-            <span class="errorMessage">
-              {{ $message }}
-            </span>
-      @enderror
+      <input type="password" name="password"  class="form-control" placeholder="パスワードを入力してください">
   </div>
 
   <div class="form-group">
