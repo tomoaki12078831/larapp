@@ -8,14 +8,14 @@
 
     
 
-    <!-- Dropdown -->
+    
     <li class="nav-item dropdown">
       <a class="nav-link dropdown-toggle" id="navbarDropdownMenuLink" data-toggle="dropdown"
          aria-haspopup="true" aria-expanded="false">
       </a>
       <div class="dropdown-menu dropdown-menu-right dropdown-primary" aria-labelledby="navbarDropdownMenuLink">
         <button class="dropdown-item" type="button"
-                onclick="location.href=''">
+                onclick="location.href='users.show'">
           マイページ
         </button>
         <div class="dropdown-divider"></div>
@@ -26,7 +26,7 @@
     </li>
     <form id="logout-button" method="POST" action="">
     </form>
-    <!-- Dropdown -->
+    
 
   </ul>
 

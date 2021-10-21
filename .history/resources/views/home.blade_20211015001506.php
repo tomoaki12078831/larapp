@@ -1,7 +1,7 @@
 @extends('layouts.layout')
 
 @section('content')
-  @include('users.app')
+  @include('app')
 <div class="row">
         <div class="col-sm-4">
         

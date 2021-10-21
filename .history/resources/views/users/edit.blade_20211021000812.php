@@ -3,12 +3,12 @@
 @section('content')
 <div class="signupPage">
 <header class="header">
-<div>ユーザー登録</div>
+<div>プロフィール編集</div>
 </header>
 <div class="container">
   
       
-<form class="form mt-5" method="POST" action="{{ route('register') }}" enctype="multipart/form-data">
+<form class="form mt-5" method="POST" action="/users/update/{{ $user->id }}" enctype="multipart/form-data">
 @csrf
 
   <div class="form-group @error('name')has-error @enderror">
@@ -129,4 +129,3 @@
 </div>
 </div>
 @endsection
-

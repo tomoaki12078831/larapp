@@ -3,7 +3,7 @@
 @section('content')
 <div class="signupPage">
 <header class="header">
-<div>ユーザー登録</div>
+<div>プロフィール編集</div>
 </header>
 <div class="container">
   
@@ -129,4 +129,3 @@
 </div>
 </div>
 @endsection
-
