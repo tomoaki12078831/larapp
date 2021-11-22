@@ -40,13 +40,13 @@
     </div>
   </div>
   <div>
-      <div class='userInfo_sex card-text'>性別{{ $item -> sex_name }}</div>
-      <div class='userInfo_age card-text'>年齢{{ $item -> year_name }}</div>
-      <div class='userInfo_area card-text'>地域{{ $item -> pref_name }}</div>
-      <div class='userInfo_want_talk card-text'>話したい言語{{ $item -> wantlanguage_name }}</div>
-      <div class='userInfo_can_talk card-text'>話せる言語{{ $item -> canlanguage_name }}</div>
-      <div class='userInfo_occupation card-text'>職業{{ $item -> job_name }}</div>
-      <div class='userInfo_selfIntroduction card-text'>自己紹介{{ $item -> self_introduction }}</div>
+      <div class='userInfo_sex card-text'>性別&nbsp;{{ $item -> sex_name }}</div>
+      <div class='userInfo_age card-text'>年齢&nbsp;{{ $item -> year_name }}</div>
+      <div class='userInfo_area card-text'>地域&nbsp;{{ $item -> pref_name }}</div>
+      <div class='userInfo_want_talk card-text'>話したい言語&nbsp;{{ $item -> wantlanguage_name }}</div>
+      <div class='userInfo_can_talk card-text'>話せる言語&nbsp;{{ $item -> canlanguage_name }}</div>
+      <div class='userInfo_occupation card-text'>職業&nbsp;{{ $item -> job_name }}</div>
+      <div class='userInfo_selfIntroduction card-text'>自己紹介&nbsp;{{ $item -> self_introduction }}</div>
   </div>
 @endforeach
 @endif
